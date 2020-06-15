@@ -31,7 +31,7 @@ app.post("/",function(req,res){
   const url= 'https://us4.api.mailchimp.com/3.0/lists/7a9cabe2f9';
   const options={
     method:"POST",
-    auth: "NehaMuralidharan:6e301e36a577bbc1544cf9f2157bf3de-us4s"
+    auth: "NehaMuralidharan:"
   }
   const request= https.request(url,options,function(response){
     if(response.statusCode===200){
